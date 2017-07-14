@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="reset.css">
+
+
+  <title>Web Fundamentals Project</title>
+
+</head>
+
+<body>
+ <div id="wrapper">
+  <header id="main">
+
+<!-- top -->
+
+    <div id="top">
+      <div id="text">this is just a logo</div>
+      <div id="fa-social">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </div>
+      <div class="contact">
+        <a name="#contact" href="">contact</a>
+      </div>
+    </div>
+
+<!-- top end -->
+
+<!--nav -->
+
+    <div id="nav">
+      <div id="nav_wrapper">
+
+        <ul id="allnav">
+
+          <li><a name="#home" href=""><img src="img/home.png" alt="home"></a></li>
+
+          <li id="who">
+            <div class="dropdown">
+              <input id="checkbox_toggle" type="checkbox" />
+              <label for="checkbox_toggle">Who</label>
+                <ul id="dropdown">
+                  <li><a name="#about-you" href="">About you</a></li>
+                  <li><a name="#about-me" href="">About me</a></li>
+                </ul>
+              </div>
+            </li>
+
+
+            <li id="what">
+              <div class="dropdown">
+                <input id="checkbox_toggle" type="checkbox" />
+                <label for="checkbox_toggle">What</label>
+                  <ul id="dropdown">
+                    <li><a name="#about-the-course" href="">About the course</a></li>
+                    <li><a name="#html-and-css" href="">HTML and CSS</a></li>
+                  </ul>
+                </div>
+              </li>
+
+
+              <li id="where">
+                <div class="dropdown">
+                  <input id="checkbox_toggle" type="checkbox" />
+                  <label for="checkbox_toggle">Where</label>
+                    <ul id="dropdown">
+                      <li><a name="#onsite" href="">Onsite</a></li>
+                      <li><a name="#remote" href="">Remote</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+
+                <li id="why">
+                  <div class="dropdown">
+                    <input id="checkbox_toggle" type="checkbox" />
+                    <label for="checkbox_toggle">Why</label>
+                      <ul id="dropdown">
+                        <li><a name="#knowledge" href="">Knowledge</a></li>
+                        <li><a name="#profession" href="">Profession</a></li>
+                      </ul>
+                    </div>
+                  </li>
+
+
+                  <li id="how">
+                    <div class="dropdown">
+                      <input id="checkbox_toggle" type="checkbox" />
+                      <label for="checkbox_toggle">How</label>
+                        <ul id="dropdown">
+                          <li><a name="#for-all" href="">For all</a></li>
+                          <li><a name="#accessibility" href="">Accessibility</a></li>
+                        </ul>
+                      </div>
+                    </li>
+
+                <li id="softuni">
+                  <a href="softuni.bg">SoftUni</a>
+                </li>
+
+        </ul>
+      </div>
+    </div>
+
+<!-- nav end -->
+
+<!-- slideshow -->
+
+  <div id="slider">
+    <figure>
+      <img src="img/slider_bloom.jpg" alt>
+      <img src="img/slider_colors.jpg" alt>
+      <img src="img/slider_free.jpg" alt>
+      <img src="img/slider_green.jpeg" alt>
+      <img src="img/slider_jump.jpg" alt>
+    </figure>
+  </div>
+
+<!-- slideshow -->
+
+  <div id="mid">
+    <div id="text">...it&#39;s never too <span>early</span> to learn something new...</div>
+  </div>
+
+  </header>
+ </div>
+
+<!-- end of header -->
+
+  <main>
+
+<!-- ancors -->
+
+    <div id="ancors">
+
+      <div id="who">
+
+        <div id="about-you">
+          <a name="#about-you"></a>
+        </div>
+
+        <div id="about-me">
+          <a name="#about-me"></a>
+        </div>
+
+      </div>
+
+
+      <div id="what">
+
+        <div id="about-the-course">
+          <a name="#about-the-course"></a>
+        </div>
+
+        <div id="html-and-css">
+          <a name="#html-and-css"></a>
+        </div>
+
+      </div>
+
+
+      <div id="where">
+
+        <div id="onsite">
+          <a name="#onsite"></a>
+        </div>
+
+        <div id="remote">
+          <a name="#remote"></a>
+        </div>
+
+      </div>
+
+
+      <div id="why">
+
+        <div id="knowledge">
+          <a name="#knowledge"></a>
+        </div>
+
+        <div id="profession">
+          <a name="#profession"></a>
+        </div>
+
+      </div>
+
+      <div id="how">
+
+        <div id="for-all">
+          <a name="#for-all"></a>
+        </div>
+
+        <div id="accessibility">
+          <a name="#accessibility"></a>
+        </div>
+
+     </div>
+
+     <div id="contact_main">
+       <div id="contact">
+         <a name="#contact"></a>
+       </div>
+
+     </div>
+
+
+    </div>
+  </main>
+
+  <footer>
+    <div id="end">
+      <div id="text">
+        <p>All good things come to an end.</p>
+        <p>Thanks for sharing your knowledge!</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
+<!-- infinite scroll
+<A HREF="#codeword">Blue Words, Blue Words</A>
+
+Here's how you denote where the jump will scroll the page:
+
+<A NAME="codeword">
+http://help.typepad.com/anchor-tags.html
+-->
+
+<!-- old HTML code
+
+  <header>
+    <span>This is just a logo</span>
+  </header>
+
+
+
+
+
+
+
+<main>
+  <div class="container">
+
+  </div>
+</main>
+
+<footer>
+  <div>
+    <ul>
+     <li><a href="">This is the footer.</a></li><li>
+      <a href="">This is the footer.</a></li>
+      </ul>
+    </div>
+</footer>
+
+*/
